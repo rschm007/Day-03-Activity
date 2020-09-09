@@ -1,0 +1,44 @@
+body {
+    background-color: #ffffff;
+}
+
+p {
+    display: inline-block;
+}
+
+#container {
+    margin: 0 15% 0 15%;
+    width: 70%
+}
+
+#div1 {
+    background-color: #eee;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    height: 10%;
+    width: 15%;
+    top: 0px;
+    left: 0px;
+}
+
+#div2 {
+    position: relative;
+    background-color: #eee;
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    top: 15%;
+    bottom: 60%;
+    left: 10%;
+}
+
+#div3 {
+    position: absolute;
+    background-color: #999;
+    text-align: center;
+    height: 10%;
+    width: 20%;
+    top: 400px;
+    left: 500px;
+}
