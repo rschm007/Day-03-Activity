@@ -3,7 +3,9 @@ body {
 }
 
 p {
-    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 #container {
@@ -11,7 +13,12 @@ p {
     width: 70%
 }
 
-#div1 {
+#header {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+#fixed {
     background-color: #eee;
     position: fixed;
     display: inline-block;
@@ -20,9 +27,10 @@ p {
     width: 15%;
     top: 0px;
     left: 0px;
+    padding: 20px;
 }
 
-#div2 {
+#relative {
     position: relative;
     background-color: #eee;
     text-align: center;
@@ -31,14 +39,16 @@ p {
     top: 15%;
     bottom: 60%;
     left: 10%;
+    padding: 20px;
 }
 
-#div3 {
+#absolute {
     position: absolute;
     background-color: #999;
     text-align: center;
-    height: 10%;
-    width: 20%;
-    top: 400px;
-    left: 500px;
+    height: 30%;
+    width: 40%;
+    bottom: 0px;
+    right: -20px;
+    padding: 20px;
 }
